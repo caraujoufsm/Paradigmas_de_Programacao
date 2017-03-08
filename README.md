@@ -1,2 +1,2 @@
-# Paradigmas_de_Programacao
-Repositório da Disciplina de Paradigmas de Programação
+﻿# **Paradigmas de Programação**
+### Exercícios e Trabalhos da Disciplina
