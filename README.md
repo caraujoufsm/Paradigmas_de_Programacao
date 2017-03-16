@@ -1,9 +1,8 @@
 # **Paradigmas de Programação - 1/2017**
 >Nome: Cassio Castro Araujo<br>
 >Professora: Andrea Schwerner Charão<br>
-### Exercícios e Trabalhos da Disciplina
 
-## Tutoriais
+## Tutoriais 
 >[Python no Windows](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/tutorial/tutorial.pdf): Tutorial de como instalar Python no Windows de maneira que não se tenha problemas futuros. <br>
 
 ## Trabalhos
