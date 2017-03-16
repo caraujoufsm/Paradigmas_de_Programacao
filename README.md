@@ -1,4 +1,4 @@
-﻿# **Paradigmas de Programação - 1/2017**
+# **Paradigmas de Programação - 1/2017**
 >Nome: Cassio Castro Araujo<br>
 >Professora: Andrea Schwerner Charão<br>
 ### Exercícios e Trabalhos da Disciplina
