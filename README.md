@@ -7,5 +7,5 @@
 
 ## Trabalhos
 ### Trabalho 1
->[Parte 1] (https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t1/t1parte1.py): Trabalho em Python com definições de funções, listas e funções de alta ordem.
->[Parte 2] (https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t1/t1parte2.py): Trabalho em Python utilizando funções anônimas(lambda)
+>[Parte 1] (https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t1/t1parte1.py): Trabalho em Python com definições de funções, listas e funções de alta ordem. <br>
+>[Parte 2] (https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t1/t1parte2.py): Trabalho em Python utilizando funções anônimas(lambda) <br>
