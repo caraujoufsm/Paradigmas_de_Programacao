@@ -1,0 +1,28 @@
+Nessa parte abaixo, eles juntam respostas que possam ser utilizadas se o usuário
+utilizar a palavra "sorry" em algum momento na sua frase.
+É criada uma lista com possíveis palavras "resposta".
+/****************************************************************************/
+rules([[sorry,0],[
+	[1,[_],0,
+		[please,do,not,apologize,.],
+		[apologies,are,not,necessary,.],
+		[what,feelings,do,you,have,when,you,apologize,?],
+		['I',have,told,you,that,apologies,are,not,required,.]]]]).
+/****************************************************************************/
+
+Nessa parte abaixo, eles criam um procedimento que sorteia as palavras utilizadas
+na resposta da Eliza, dessa forma eles formam frases que simulam uma IA.
+/****************************************************************************/
+% sortkeywords(+KeyWordList,?SortedList)
+%    returns a list with the keywords sorted according to their importance
+%    this routine implements a simple bubble sort, customized for this
+%    application
+
+sortkeywords(X,Y) :- sort_aux(X,A,1), !, sortkeywords(A,Y).
+sortkeywords(X,Y) :- sort_aux(X,Y,_).
+
+sort_aux([],[],0).
+sort_aux([X],[X],0).
+sort_aux([[A,X],[B,Y]|T],[[B,Y],[A,X]|T],1) :- X < Y.
+sort_aux([X,Y|T],[X|T2],S) :- sort_aux([Y|T],T2,S).
+/****************************************************************************/
