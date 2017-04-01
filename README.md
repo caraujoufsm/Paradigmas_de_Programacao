@@ -9,3 +9,11 @@
 ### Trabalho 1
 >[Parte 1](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t1/t1parte1.py): Trabalho em Python com definições de funções, listas e funções de alta ordem. <br>
 >[Parte 2](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t1/t1parte2.py): Trabalho em Python utilizando funções anônimas(lambda) <br>
+
+### Trabalho 2
+>[Parte 1](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t2/t2parte1.py): Trabalho em Python utilizando várias funções e tuplas. <br>
+>[Parte 2](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t2/t2parte2.py): Trabalho em Python que gera uma planilha de cores. <br>
+
+
+## Extras
+>[Prolog](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/entendido.txt): Trabalho extra em prolog para identificar algumas funções da Eliza. <br>
