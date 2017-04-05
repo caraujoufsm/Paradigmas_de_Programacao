@@ -14,6 +14,8 @@
 >[Parte 1](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t2/t2parte1.py): Trabalho em Python utilizando várias funções e tuplas. <br>
 >[Parte 2](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t2/t2parte2.py): Trabalho em Python que gera uma planilha de cores. <br>
 
+### Trabalho 3
+>[Parte 1](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t3/t3parte1.md): Trabalho em prolog apenas identificando o que é feito em cada função. <br>
 
 ## Extras
 >[Prolog](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/entendido.txt): Trabalho extra em prolog para identificar algumas funções da Eliza. <br>
