@@ -75,4 +75,5 @@ int main() {
    std::cout << c2->area() << std::endl;
    std::cout << c3->distanceTo(c2)<<std::endl;
    delete c2;
+   delete c3;
 }
