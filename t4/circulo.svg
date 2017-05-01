@@ -1,0 +1,8 @@
+<!DOCTYPE html><html><body><svg  xmlns='http://www.w3.org/2000/svg' height='800' width='800'>
+<circle cx='94.1006' cy='167.602' r='50' style='stroke: rgb(31,161,217);' stroke-width='3' fill='blue' />
+<line x1='94.1006' y1='167.602' x2='196.782' y2='132.274' style='stroke:rgb(38,70,90); stroke-width:2' /><circle cx='196.782' cy='132.274' r='50' style='stroke: rgb(187,108,33);' stroke-width='3' fill='blue' />
+<line x1='196.782' y1='132.274' x2='226.442' y2='253.972' style='stroke:rgb(238,211,155); stroke-width:2' /><circle cx='226.442' cy='253.972' r='50' style='stroke: rgb(231,222,41);' stroke-width='3' fill='blue' />
+<line x1='226.442' y1='253.972' x2='103.264' y2='191.33' style='stroke:rgb(204,182,11); stroke-width:2' /><circle cx='103.264' cy='191.33' r='50' style='stroke: rgb(170,87,74);' stroke-width='3' fill='blue' />
+<line x1='103.264' y1='191.33' x2='104.979' y2='99.5366' style='stroke:rgb(241,130,0); stroke-width:2' /><circle cx='104.979' cy='99.5366' r='50' style='stroke: rgb(11,246,30);' stroke-width='3' fill='blue' />
+</svg>
+</body></html>
