@@ -33,9 +33,32 @@ public:
    }
 
 };
+	bool compareatvepts(Score& s1, Score& s2) {
+		return s1.getDescr() > s2.getDescr() && s1.getPontos() > s2.getPontos();
+	}
+	
+	bool comparenome(Score& s1, Score& s2) {
+		return s1.getNome() > s2.getNome();
+	}
 
 class Total {
-	
+private:
+		Score Jogador;
+		int tot;
+public:
+	int gettot() {
+		return tot;
+	}
+	string getNome() {
+		return Jogador.getNome();
+	}
+	string getDescr() {
+		return Jogador.getDescr();
+	}
+	int getPontos() {
+		return Jogador.getPontos();
+	}
+};
 
 int main() {
 
@@ -44,6 +67,7 @@ int main() {
    string line;
    string cell[3];
    vector<Score> s;
+   int contador = 1;
    
    while (getline(data, line)) {
       stringstream linestream(line);
@@ -52,14 +76,22 @@ int main() {
       getline(linestream, cell[2], ',');
       s.push_back(Score(cell[0], cell[1], stoi(cell[2])));
    }
+    
    
-   // ordena com operador '>' definido na classe (por idade)
+   // ordena com operador '>' definido na classe (por pontos)
    sort(s.begin(), s.end());
    
    vector<Score>::iterator it;
+   vector<Score>::iterator it2;
    for (it = s.begin(); it < s.end(); it++){
       cout<< it->getNome() << " ";
 	  cout<< it->getDescr() << " ";
 	  cout<< it->getPontos() << " "<< endl;
    }
+	// ordena por atividade
+	sort(s.begin(), s.end(), compareatvepts);
+	
+	for (it = s.begin(),it2 = s.begin()+1; it < s.end(); it++,contador++){
+		cout <<contador<<":"<< it->getNome() <<":"<< it->getDescr() <<":"<< it->getPontos()<<endl;
+	}
 }
