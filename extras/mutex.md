@@ -41,10 +41,10 @@ int main()
     g_pages_mutex.unlock();
 }
 ```
-Saida:
-http://bar => fake content
-http://foo => fake content
+Saida:<br>
+http://bar => fake content <br>
+http://foo => fake content <br>
 
 ## Referências:
->[cppreference](http://pt.cppreference.com/w/cpp/thread/mutex)
->[UFRGS](ftp://ftp.inf.ufrgs.br/pub/geyer/SOII/slides/SlidesAlunos/ProvasSemestresAnteriores/ProvaP1-2010-2/PC-aula07-secaoCritica-v19-mac-ago2010.pdf)
+>[cppreference](http://pt.cppreference.com/w/cpp/thread/mutex)<br>
+>[Wikipédia](https://pt.wikipedia.org/wiki/Regi%C3%A3o_cr%C3%ADtica)<br>
