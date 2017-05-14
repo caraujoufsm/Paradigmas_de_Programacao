@@ -31,3 +31,4 @@
 >[Prolog](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/entendido.txt): Trabalho extra em prolog para identificar algumas funções da Eliza. <br>
 >[Python](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/Folha%20de%20Dicas%20Python.docx): Folha de dicas em Python. <br>
 >[Screenshot](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/ScreenShot%20-%20Hello%20World.jpg): Screenshot de uma aplicação que utiliza sprites. <br>
+>[std::mutex](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/mutex.md): Explicação breve e exemplo de uso do mutex.<br>
