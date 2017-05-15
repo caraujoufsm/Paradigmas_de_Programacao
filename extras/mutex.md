@@ -1,6 +1,6 @@
 ## std::mutex
 
-Conceito utilizado em threads. Essa é a forma para evitar que duas ou mais threads acessem/modifiquem uma determinada variável. Isto é, se a thread 1 quiser acessar um valor A, a thread 2 não pode acessar esse valor ao mesmo tempo. Isso causaria problemas no código e possíveis respostas saíriam diferentes do esperado.
+Conceito utilizado em threads. Essa é a forma para evitar que duas ou mais threads acessem/modifiquem uma determinada variável em uma seção crítica(área de seção compartilhada entre duas threads/processos). Isto é, se a thread 1 quiser acessar um valor A, a thread 2 não pode acessar esse valor ao mesmo tempo. Isso causaria problemas no código e possíveis respostas saíriam diferentes do esperado.
 Em suma, mutex seria uma forma de proteção de determinado objeto. Auxília as threads a protegerem sua seção crítica.
 Seção crítica seria partes do código que possuem variáveis compartilhadas.
 
