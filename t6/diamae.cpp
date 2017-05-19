@@ -153,6 +153,3 @@ sort(fig.begin(), fig.end(), cmparea);
 	cout<<"Valor do pacote: R$"<< fixed << valor <<endl;
 	return 0;
 }
-
-// Falta gerar os valores random para calcular a area;
-// Falta os case pois o circulo precisa de 1 valor;
