@@ -25,7 +25,10 @@
 >[Parte 3](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t4/svg.cpp): Trabalho em c++ criando um svg de circulos. <br>
 
 ### Trabalho 5
->[Parte única](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t5/vectorscore.cpp): Trabalho em c++ criando e manipulando classe "Score".
+>[Parte única](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t5/vectorscore.cpp): Trabalho em c++ criando e manipulando classe "Score".<br>
+
+### Trabalho 6
+>[Parte única](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t6/diamae.cpp): Trabalho em c++ criando e gerando biscoitos de formatos e tamanhos diferentes.<br>
 
 ## Extras
 >[Prolog](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/entendido.txt): Trabalho extra em prolog para identificar algumas funções da Eliza. <br>
