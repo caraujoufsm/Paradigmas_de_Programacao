@@ -10,7 +10,6 @@ class Figura {
 public:
 	virtual double calculaarea() const = 0;
 	virtual double valor() const = 0;
-	//string tipo() const { return tipo; }
 };
 
 class Circulo: public Figura
@@ -146,9 +145,9 @@ sort(fig.begin(), fig.end(), cmparea);
 		}
 	}
 	cout<<"Foram gerados:"<<endl;
-	cout<<g<<" biscoitos grandes"<<endl;
-	cout<<(fig.size()-g-p)<<" biscoitos medios"<<endl;
-	cout<<p<<" biscoitos pequenos"<<endl;
+	cout<<g<<" biscoitos grandes que iram render "<<g*0.5<<" reais"<<endl;
+	cout<<(fig.size()-g-p)<<" biscoitos medios que iram render "<<((fig.size()-g-p)*0.3)<<" reais"<<endl;
+	cout<<p<<" biscoitos pequenos que iram render "<<p*0.2<<" reais"<<endl;
 	cout.precision(2);
 	cout<<"Valor do pacote: R$"<< fixed << valor <<endl;
 	return 0;
