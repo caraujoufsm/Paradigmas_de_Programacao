@@ -1,0 +1,75 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0303 
+header_name {.h} 
+code_name {.cxx}
+class UserInterface {open
+} {
+  Function {UserInterface()} {open
+  } {
+    Fl_Window w {
+      label {Simple CRUD} open
+      protected xywh {725 256 520 490} type Double visible
+    } {
+      Fl_Input inputTitle {
+        label Titulo
+        protected xywh {80 26 250 24}
+      }
+      Fl_Input inputId {
+        label Id
+        protected xywh {349 25 90 24}
+      }
+      Fl_Input inputField {
+        label Campo
+        protected xywh {80 55 360 24}
+      }
+      Fl_Input inputType {
+        label Type
+        protected xywh {80 61 360 24} hide deactivate
+      }
+      Fl_Input_Choice inputTipo {
+        label Tipo open
+        xywh {80 85 360 25}
+      } {
+        MenuItem Integer {
+          label Integer
+          xywh {0 0 100 20}
+        }
+        MenuItem Float {
+          label Float
+          xywh {0 0 100 20}
+        }
+        MenuItem String {
+          label String
+          xywh {0 0 100 20}
+        }
+      }
+      Fl_Button btnClear {
+        label Clear
+        protected xywh {24 132 100 25}
+      }
+      Fl_Button btnUpdate {
+        label Update
+        protected xywh {147 131 100 25}
+      }
+      Fl_Button btnDelete {
+        label Delete
+        protected xywh {270 131 100 25}
+      }
+      Fl_Button btnInsert {
+        label Insert
+        protected xywh {394 131 100 25}
+      }
+      Fl_Button btnExport {
+        label {Exportar CSV} selected
+        protected xywh {189 448 140 35}
+      }
+      Fl_Box {} {
+        label {GERADOR CSV}
+        xywh {132 6 255 16} labelfont 1 labelsize 22
+      }
+      Fl_Browser browser {
+        protected xywh {24 166 470 277} type Hold
+      }
+    }
+  }
+} 
