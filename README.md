@@ -33,6 +33,9 @@
 ### Trabalho 7
 >[Parte única](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t7/main.cpp): Trabalho em c++ com OO criando um "sorteador para eventos" e também utilizando fluid para gerar a parte gráfica. <br>
 
+### Trabalho 8
+>[Parte única](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/t8/main.cpp): Trabalho em c++ com OO criando um arquivo csv para modificar um template gerador de index.html. Utilizando o fluid como apoio. <br>
+
 ## Extras
 >[Prolog](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/entendido.txt): Trabalho extra em prolog para identificar algumas funções da Eliza. <br>
 >[Python](https://github.com/caraujoufsm/Paradigmas_de_Programacao/blob/master/extras/Folha%20de%20Dicas%20Python.docx): Folha de dicas em Python. <br>
