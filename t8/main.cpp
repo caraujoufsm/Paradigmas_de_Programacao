@@ -146,7 +146,7 @@ static void cbBtnExport(Fl_Widget* btn, void* userdata, Data data) {
 	std::string Line;
 	ofstream myfile;
 	myfile.open ("projeto.csv");
-	myfile << "Titulo,Index,Campo,Tipo\n";
+	myfile << "Index,Título,Campo,Tipo\n";
 	for (int i = 1; i < gui->browser->size()+1; i++){
 		Line = gui->browser->text(i);
 		myfile << Line+"\n";
